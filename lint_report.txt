@@ -1,0 +1,102 @@
+
+> polspoch-website@0.1.0 lint
+> eslint
+
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/app/(auth)/layout.tsx
+  2:8  warning  'Image' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/app/(dashboard)/dashboard/manage-exercise/[id]/page.tsx
+  18:27  warning  'Loader2' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/app/(dashboard)/dashboard/manage-module/page.tsx
+  11:10  warning  'Instrument' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/app/(dashboard)/dashboard/setPricing/page.tsx
+  1:8  warning  'PriceSet' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/components/dashboard/common/Header.tsx
+  20:10  warning  'Bell' is defined but never used                  @typescript-eslint/no-unused-vars
+  60:11  warning  'unseenCount' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/components/dashboard/common/Sidebar.tsx
+  9:3  warning  'BookOpen' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/components/dashboard/pages/addbooks/Addbooks.tsx
+  1:10  warning  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  2:8   warning  'Link' is defined but never used    @typescript-eslint/no-unused-vars
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/components/dashboard/pages/allbooks/Allbooks.tsx
+  2:10  warning  'CategoryShow' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/components/dashboard/pages/allbooks/CategoryCard.tsx
+  20:32  warning  'CheckCircle2' is defined but never used                 @typescript-eslint/no-unused-vars
+  20:46  warning  'XCircle' is defined but never used                      @typescript-eslint/no-unused-vars
+  20:55  warning  'Clock' is defined but never used                        @typescript-eslint/no-unused-vars
+  27:5   warning  'Select' is defined but never used                       @typescript-eslint/no-unused-vars
+  28:5   warning  'SelectContent' is defined but never used                @typescript-eslint/no-unused-vars
+  29:5   warning  'SelectItem' is defined but never used                   @typescript-eslint/no-unused-vars
+  30:5   warning  'SelectTrigger' is defined but never used                @typescript-eslint/no-unused-vars
+  32:10  warning  'cn' is defined but never used                           @typescript-eslint/no-unused-vars
+  42:36  warning  'isUpdating' is assigned a value but never used          @typescript-eslint/no-unused-vars
+  46:11  warning  'handleStatusChange' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/components/dashboard/pages/overviews/Dashboardpage.tsx
+  1:10  warning  'Search' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/components/dashboard/pages/setPricing/PriceSet.tsx
+  57:18  warning  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/features/auth/component/Login.tsx
+  3:8  warning  'Image' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/features/auth/component/ResetPassword.tsx
+  4:8  warning  'Image' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/features/auth/component/Verifycode.tsx
+  3:8  warning  'Image' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/features/instruments/components/InstrumentsTable.tsx
+  153:17  warning  Compilation Skipped: Use of incompatible library
+
+This API returns functions which cannot be memoized without leading to stale UI. To prevent this, by default React Compiler will skip memoizing this component/hook. However, you may see issues if values from this API are passed to other components/hooks that are memoized.
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/features/instruments/components/InstrumentsTable.tsx:153:17
+  151 |   );
+  152 |
+> 153 |   const table = useReactTable({
+      |                 ^^^^^^^^^^^^^ TanStack Table's `useReactTable()` API returns functions that cannot be memoized safely
+  154 |     data,
+  155 |     columns,
+  156 |     getCoreRowModel: getCoreRowModel(),  react-hooks/incompatible-library
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/features/modules/components/ModulesTable.tsx
+  123:17  warning  Compilation Skipped: Use of incompatible library
+
+This API returns functions which cannot be memoized without leading to stale UI. To prevent this, by default React Compiler will skip memoizing this component/hook. However, you may see issues if values from this API are passed to other components/hooks that are memoized.
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/features/modules/components/ModulesTable.tsx:123:17
+  121 |   );
+  122 |
+> 123 |   const table = useReactTable({
+      |                 ^^^^^^^^^^^^^ TanStack Table's `useReactTable()` API returns functions that cannot be memoized safely
+  124 |     data,
+  125 |     columns,
+  126 |     getCoreRowModel: getCoreRowModel(),  react-hooks/incompatible-library
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/features/student-progress/components/StudentProgressTable.tsx
+  178:17  warning  Compilation Skipped: Use of incompatible library
+
+This API returns functions which cannot be memoized without leading to stale UI. To prevent this, by default React Compiler will skip memoizing this component/hook. However, you may see issues if values from this API are passed to other components/hooks that are memoized.
+
+/home/khalid-hossain/Desktop/work-space/dwiseguy/dwiseguy-dashboard/src/features/student-progress/components/StudentProgressTable.tsx:178:17
+  176 |   );
+  177 |
+> 178 |   const table = useReactTable({
+      |                 ^^^^^^^^^^^^^ TanStack Table's `useReactTable()` API returns functions that cannot be memoized safely
+  179 |     data,
+  180 |     columns,
+  181 |     getCoreRowModel: getCoreRowModel(),  react-hooks/incompatible-library
+
+✖ 28 problems (0 errors, 28 warnings)
+
